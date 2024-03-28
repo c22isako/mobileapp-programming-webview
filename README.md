@@ -40,7 +40,12 @@ myWebView.setWebViewClient(new WebViewClient()); // Do not open in Chrome!
 myWebView.loadUrl("https://his.se");
 WebView myWebView;
 ```
-
+Med använding av gettern samt settern för webSettings sätter vi in värdet (true) för att möjlighetsgöra använding av JavaScript.
+```
+WebView myWebView = (WebView) findViewById(R.id.my_WebView);
+WebSettings webSettings = myWebView.getSettings();
+webSettings.setJavaScriptEnabled(true);
+```
 
 
 
