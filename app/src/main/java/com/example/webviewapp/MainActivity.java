@@ -16,10 +16,13 @@ public class MainActivity extends AppCompatActivity {
     WebView myWebView;
     public void showExternalWebPage() {
         // TODO: Add your code for showing external web page here
+        myWebView.loadUrl("https://his.se");
+
     }
 
     public void showInternalWebPage() {
         // TODO: Add your code for showing internal web page here
+        myWebView.loadUrl("https://google.com");
     }
 
     @Override
@@ -29,16 +32,13 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        setContentView(R.layout.activity_main);
+        //setContentView(R.layout.activity_main);
         myWebView = findViewById(R.id.my_WebView);
         myWebView.setWebViewClient(new WebViewClient()); // Do not open in Chrome!
         myWebView.loadUrl("https://his.se");
 
-        WebView myWebView = (WebView) findViewById(R.id.my_WebView);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-
-
 
     }
 
