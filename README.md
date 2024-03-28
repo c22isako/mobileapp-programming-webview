@@ -46,8 +46,11 @@ WebView myWebView = (WebView) findViewById(R.id.my_WebView);
 WebSettings webSettings = myWebView.getSettings();
 webSettings.setJavaScriptEnabled(true);
 ```
-
-
+Med handledning löstes problem med ToolBar som tappat sin text, genom att ta bort en kodrad som satte en ny contentView,
+på en existerande ContentView. se nedan.
+```
+//setContentView(R.layout.activity_main);
+```
 
 
 
