@@ -22,7 +22,20 @@ i AdroidManifest.xml
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den 
 blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
 
+Lade till en WebView via kodraden nedan, samt ändrade id till myWebView
+```
+<WebView
+android:id="@+id/myWebView"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+/>
+```
+
+
 Lade sedan till en WebView, via activity_main och palette, där jag även tog bort TextView genom att markera den i design-vyn och trycka på delete.
+WebViewn behövde constraints, vilket jag lade till via designvyn, och constraint Widget. (och lät programmet själv bestämma utifrån storleken jag valt
+via att sätta ut WebView, då de autokompletterade via "+")
+
 
 
 
