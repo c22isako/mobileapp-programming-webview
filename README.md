@@ -30,11 +30,17 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 />
 ```
+Jag deklarerade classen WebView sedan används för att skapa ett WebView objekt. Denna används för att
+exempelvis sätta vilken Url som kommer laddas på WebViewn, samt vilken webView som ska användas.
 
+```
+setContentView(R.layout.activity_main);
+myWebView = findViewById(R.id.my_WebView);
+myWebView.setWebViewClient(new WebViewClient()); // Do not open in Chrome!
+myWebView.loadUrl("https://his.se");
+WebView myWebView;
+```
 
-Lade sedan till en WebView, via activity_main och palette, där jag även tog bort TextView genom att markera den i design-vyn och trycka på delete.
-WebViewn behövde constraints, vilket jag lade till via designvyn, och constraint Widget. (och lät programmet själv bestämma utifrån storleken jag valt
-via att sätta ut WebView, då de autokompletterade via "+")
 
 
 

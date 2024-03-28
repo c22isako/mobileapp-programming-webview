@@ -25,10 +25,12 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <WebView
-        android:id="@+id/myWebView"
+        android:id="@+id/my_WebView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
