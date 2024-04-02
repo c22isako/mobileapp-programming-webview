@@ -51,7 +51,8 @@ på en existerande ContentView. se nedan.
 ```
 //setContentView(R.layout.activity_main);
 ```
-
+Via onOptionsItemSelected(), satte jag in metoderna showExternalWebPage(), samt showInternalWebPage() till dess korreponderande
+if-sats, vilket gör att dessa nu kommer öppnas beroende på den valda "knappen" i dropdown-menyn.
 
 
 
