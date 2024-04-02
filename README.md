@@ -67,7 +67,8 @@ Denna filen används sedan som den interna webbsidan. För att se så att alltin
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![](InternalWebsite.png)
+![](ExternalWebsite.png)
 
 Läs gärna:
 
