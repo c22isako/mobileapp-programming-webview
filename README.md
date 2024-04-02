@@ -64,10 +64,10 @@ Denna filen används sedan som den interna webbsidan. För att se så att alltin
 <h1>This page is to show that it works</h1>
 <h2> Hello! </h2>
 ```
-
-Bilder läggs i samma mapp som markdown-filen.
-
+The internal website:
 ![](InternalWebsite.png)
+
+The external website:
 ![](ExternalWebsite.png)
 
 Läs gärna:
