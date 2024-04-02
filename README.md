@@ -58,6 +58,12 @@ rätt intern-webbsida kommer upp vid val av internal website.
 myWebView.loadUrl("file:///android_asset/about.html");
 ```
 
+För att möjliggöra en intern webbsida, skapade jag en ny asset folder, assets. I denna skapade jag en directory, img, och en fil, about.html.
+Denna filen används sedan som den interna webbsidan. För att se så att allting fungerar, lade jag till text i filen. Ex:
+```
+<h1>This page is to show that it works</h1>
+<h2> Hello! </h2>
+```
 
 Bilder läggs i samma mapp som markdown-filen.
 

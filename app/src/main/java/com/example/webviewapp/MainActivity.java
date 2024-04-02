@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     WebView myWebView;
     public void showExternalWebPage() {
         // TODO: Add your code for showing external web page here
-        myWebView.loadUrl("https://google.com");
+        myWebView.loadUrl("https://his.se");
 
     }
 
