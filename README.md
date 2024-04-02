@@ -52,8 +52,11 @@ på en existerande ContentView. se nedan.
 //setContentView(R.layout.activity_main);
 ```
 Via onOptionsItemSelected(), satte jag in metoderna showExternalWebPage(), samt showInternalWebPage() till dess korreponderande
-if-sats, vilket gör att dessa nu kommer öppnas beroende på den valda "knappen" i dropdown-menyn.
-
+if-sats, vilket gör att dessa nu kommer öppnas beroende på den valda "knappen" i dropdown-menyn. Jag fixade även så att
+rätt intern-webbsida kommer upp vid val av internal website.
+```
+myWebView.loadUrl("file:///android_asset/about.html");
+```
 
 
 Bilder läggs i samma mapp som markdown-filen.
